@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        Log in to the Book store
+        <form action="DispatchController" method="POST">
+            UserID: <input type="text" name="txtUserID" value="" />
+            Password: <input type="password" name="txtPassword" value="" />
+            <input type="submit" value="Log in" name="btAction" />
+        </form>
+        <a href="LoadCategoryServlet">Back to the bookstore</a>
+    </body>
+</html>
